@@ -4,11 +4,13 @@
     padding: 100px 0;
     margin-bottom: 110px;
     display: flex;
+    flex-wrap: wrap;
 
 .banner-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .banner-text {
     width: 50%;
