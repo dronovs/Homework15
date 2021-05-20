@@ -1,0 +1,11 @@
+@mixin common-style ($color, $bg) {
+    color: $color;
+    background-color: $bg;
+}
+
+@mixin buttons ($padding, $bg-color, $border, $text-color) {
+    padding: $padding;
+    background-color: $bg-color;
+    border: $border;
+    color: $text-color; 
+}

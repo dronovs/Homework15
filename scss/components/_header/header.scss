@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  display: flex;
+  background-color: #f6f2f2;
+}
+.header-wrapper {
+  width: 100%;
+  @include common-style($color: #e0e0e0, $bg: $header-bg-color);
+  .menu nav ul {
+    justify-content: center;
+    display: flex;
+    padding: $menu-paddings;
+  }
+  li {
+    list-style: none;
+  }
+  li a {
+    @include buttons($padding: $header-paddings, $bg-color: $header-bg-color, $border: 2px transparent solid, $text-color: #e0e0e0);
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  li:hover a {
+    @include buttons($padding: $header-paddings, $bg-color: $buttons-bg-color, $border: 2px $buttons-bg-color solid, $text-color: #e0e0e0);
+  }
+}

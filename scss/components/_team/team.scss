@@ -1,0 +1,99 @@
+.team {
+    margin-bottom: 110px;
+}
+.team-text {
+    width: 40%;
+    max-width: 500px;
+}
+.team-text h2 {
+    font-size: $h2-font-size;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.team-text p {
+    color: $text-main-color;
+}
+.team-text p:last-child {
+    margin-bottom: 40px;
+}
+.team-horizontal-line {
+    border-bottom: 1px $buttons-bg-color solid;
+    box-shadow: -1px -1px 2px 1px $buttons-bg-color;
+    width: 130px;
+    margin-bottom: 70px;
+}
+.team-wrapper {
+    display: flex;
+    .team-left-part {
+        width: 25%;
+        .main-team-photo {
+            width: 100%;
+            height: 450px;
+        }
+    }
+    .team-right-part {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        margin-left: 70px;
+        justify-content: space-between;
+        h3 {
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .team-main-text {
+            margin-bottom: 30px;
+        }
+        .team-menu {
+            display: flex;
+            list-style: none;
+            margin-bottom: 40px;
+            li:not(:last-child) {
+                padding-right: 25px;
+            }
+            a {
+                text-decoration: none;
+                color: $text-main-color;
+                font-style: italic;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        .team-photos-wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .team-mate {
+                position: relative;
+                width: calc(100% / 4 - 20px);
+                box-sizing: border-box;
+                
+            .team-mate:not(:last-child) {
+                margin-right: 20px;
+            }
+            
+             span {
+                    position: absolute;
+                    z-index: 1;
+                    bottom: 0;
+                    color: white;
+                    background: $header-bg-color;
+                    display: inline;
+                    width: 100%;
+                    text-align: center;
+                    opacity: 0;
+                }
+                img {
+                    max-height: 215px;
+                    width: 100%;
+                }
+            }
+            div:hover span {
+                opacity: 1;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,174 @@
+@media (max-width:992px) {
+    .contact .contact-wrapper h2 {
+        text-align: center;
+    }
+    .contact .contact-wrapper .contact-text-wrapper {
+        margin-bottom: 50px;
+        width: 100%;
+        p {
+            text-align: center;
+        }
+    }
+
+    .contact .contact-wrapper .contact-horizontal-line {
+        margin: 30px 400px 75px;
+    }
+    .contact-right-wrapper {
+        padding: 140px 109px 140px 80px;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-left-form {
+        margin-right: 0;
+        width: 50%;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-btn a {
+        padding: 25px 179px;
+    }
+    .contact .contact-wrapper .contact-forms-content .right-contact-info {
+        width: 45%;
+    }
+    .contact .contact-wrapper .contact-forms-content .right-contact-info .contact-right-wrapper {
+        padding: 85px 30px 80px 80px;
+    }
+}
+
+@media (max-width:768px) {
+    .contact .contact-wrapper {
+        margin-bottom: 50px;
+    }
+    .contact .contact-wrapper .contact-text-wrapper {
+        margin-bottom: 0;
+    }
+    .contact .contact-wrapper h2 {
+        margin-bottom: 20px;
+    }
+    .contact .contact-wrapper .contact-text-wrapper p {
+        font-size: 20px;
+    }
+    .contact .contact-wrapper .contact-horizontal-line {
+        margin: 30px 310px 40px;
+    }
+    .contact-inputs {
+        flex-wrap: wrap;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-left-form {
+        margin-right: 0;
+        width: 45%;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs .contact-name {
+        margin: 0 0px 20px 0px;
+        width: 45%;
+        margin: 0 0px 20px 0px;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs .contact-email {
+        margin: 0 0px 20px 0px;
+        width: 45%;
+        margin: 0 0px 20px 0px;
+    }
+    .contact .contact-wrapper .contact-forms-content textarea {
+        padding: 20px 0px 0px 30px;
+        margin: 0 10px 20px 0px;
+        height: 225px;
+    }
+    .contact .contact-wrapper .contact-forms-content .right-contact-info .contact-right-wrapper {
+        padding: 65px 30px 70px 80px;
+    }
+    .contact .contact-wrapper .contact-forms-content .right-contact-info {
+        width: 50%;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-btn {
+        max-width: 360px;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-btn a {
+        padding: 10px 105px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact .contact-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-left-form {
+        margin-bottom: 20px;
+    }
+    .contact .contact-wrapper h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .contact .contact-wrapper .contact-horizontal-line {
+        margin: 30px 210px 40px;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-left-form {
+        margin-right: 0;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .contact .contact-wrapper .contact-forms-content .right-contact-info {
+        width: 100%;
+    }
+
+    .contact .contact-wrapper .contact-forms-content {
+        flex-wrap: wrap;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs {
+        justify-content: space-between;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs .contact-name {
+        width: 45%;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs .contact-email {
+        width: 45%;
+    }
+    .contact .contact-wrapper .contact-forms-content textarea {
+        width: 100%;
+        margin: 0 0px 20px 0px;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-btn {
+        width: 100%;
+        max-width: 100%;
+        a {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .contact .contact-wrapper {
+        margin-bottom: 20px;
+    }
+    .contact .contact-wrapper h2 {
+        font-size: 25px;
+    }
+    .contact .contact-wrapper .contact-text-wrapper p {
+        font-size: 13px;
+    }
+    .contact .contact-wrapper .contact-horizontal-line {
+        margin: 30px 170px 40px;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-btn a {
+        padding: 25px 203px;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs .contact-name {
+        width: 100%;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs .contact-email {
+        width: 100%;
+    }
+    .contact .contact-wrapper .contact-forms-content .contact-btn {
+        max-width: 480px;
+        a {
+            padding: 25px 150px;
+        }
+    }
+    .contact .contact-wrapper .contact-forms-content .right-contact-info .contact-right-wrapper {
+        padding: 35px 15px 50px 30px;
+        h3 {
+            margin-bottom: 20px;
+
+        }
+        .contact-adress p {
+            margin-bottom: 20px;
+
+        }
+    }
+}

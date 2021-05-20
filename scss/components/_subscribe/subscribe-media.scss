@@ -1,0 +1,35 @@
+@media (max-width: 992px) {
+    .subscribe {
+        margin-bottom: 50px;
+    }
+    .subscribe-wrapper {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .subscribe {
+        margin-bottom: 25px;
+    }
+    .subscribe-wrapper {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .subscribe-wrapper {
+        padding: 40px 0;
+        text-align: center;
+        h2 {
+            margin-bottom: 40px;
+        }
+
+    }
+    .subscribe-wrapper .subscribe-form input {
+        height: 70px;
+    }
+    .subscribe-wrapper .subscribe-form .subscribe-btn {
+        padding: 20px 0px;
+    }
+
+}

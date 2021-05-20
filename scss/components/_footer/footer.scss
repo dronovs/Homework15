@@ -1,0 +1,19 @@
+.footer {
+    background-color: $text-main-color;
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0 40px 0;
+        width: 100%;
+        p {
+            color: #8b8b8b;
+        }
+        .footer-socials {
+            display: flex;
+            margin-right: 160px;
+            a:not(:last-child) {
+                margin-right: 20px;
+            }
+        }
+    }
+}
