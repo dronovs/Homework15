@@ -8,6 +8,9 @@
 
 
 @media (max-width:480px) {
+    .header {
+        padding-bottom: 20px;
+    }
     .header .header-wrapper nav ul li a {
         padding: 55px 5px 40px 5px;
     }

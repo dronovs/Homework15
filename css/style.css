@@ -78,15 +78,15 @@ select {
   }
 }
 .container {
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
 }
 
 main {
@@ -127,8 +127,8 @@ main {
 }
 .header {
   width: 100%;
-  display: flex;
   background-color: #f6f2f2;
+  padding: 0;
 }
 
 .header-wrapper {
@@ -140,6 +140,7 @@ main {
   justify-content: center;
   display: flex;
   padding: 56px 20px 42px 20px;
+  margin: 0;
 }
 .header-wrapper li {
   list-style: none;
@@ -167,6 +168,10 @@ main {
   }
 }
 @media (max-width: 480px) {
+  .header {
+    padding-bottom: 20px;
+  }
+
   .header .header-wrapper nav ul li a {
     padding: 55px 5px 40px 5px;
   }
