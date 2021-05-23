@@ -84,7 +84,7 @@
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        @include buttons($padding: 140px 210px 165px 80px, $bg-color: $text-main-color, $border: 2px transparent solid, $text-color: #e0e0e0);
+        @include buttons($padding: 150px 0px 178px 80px, $bg-color: $text-main-color, $border: 2px transparent solid, $text-color: #e0e0e0);
 
         h3 {
             text-transform: uppercase;

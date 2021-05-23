@@ -50,6 +50,7 @@
             display: flex;
             list-style: none;
             margin-bottom: 40px;
+            flex-wrap: wrap;
             li:not(:last-child) {
                 padding-right: 25px;
             }
