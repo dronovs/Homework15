@@ -30,8 +30,10 @@
     margin-bottom: 60px;
 }
 .banner-button {
+    position: relative;
     border: 2px transparent solid;
     @extend %buttons-styles;
+    
 }
 button a {
     @include buttons($padding: 10px 75px, $bg-color: $buttons-bg-color, $border: 2px transparent solid, $text-color: #e0e0e0);

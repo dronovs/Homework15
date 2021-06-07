@@ -208,6 +208,7 @@ main {
   margin-bottom: 60px;
 }
 .banner .banner-button {
+  position: relative;
   border: 2px transparent solid;
 }
 .banner button a {
@@ -473,6 +474,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-bottom: 130px;
+  flex-wrap: wrap;
 }
 .features-wrapper h2 {
   text-transform: uppercase;
